@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  max-width: 560px;
+  font-size: 16px;
+  text-align: justify;
+
+  margin: 50px auto;
+
+  line-height: 1.5;
+}
+strong {
+  font-size: 16;
+}
+li {
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 14.5px;
+  text-align: justify;
+}
+.list {
+  padding: 50px 15px;
+}
+#tribute-info {
+  margin-top: 60px;
+}
+#tribute-info > h3 {
+  text-align: center;
+}
+#main {
+  background-color: #eeeeee;
+  margin: 30px 5px;
+  padding: 30px 0;
+}
+.margin {
+  margin: 15px;
+}
+#title {
+  text-align: center;
+  margin: 15px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 5px;
+  color: #333333;
+}
+p {
+  text-align: center;
+}
+#image {
+  width: 96%;
+  max-width: 1020px;
+  margin: 15px;
+  height: auto;
+}
+#img-div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#image-caption {
+  font-family: "Montserrat";
+  font-weight: 400;
+  width: 98%;
+  margin: 15px;
+  text-align: center;
+  font-size: 14.5px;
+}
+.thought {
+  text-align: justify;
+  line-height: 1.5;
+  color: #333333;
+  text-align: left;
+  max-width: 560px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: auto;
+}
+.footer {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333333;
+}
+#tribute-link {
+  color: #0088c3;
+}
